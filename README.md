@@ -1,5 +1,9 @@
 # FMX-cars-rental-Fullstack
 
+H2 DB: 
+username=sa
+password=""
+
 ![image](https://github.com/Fury-is-Black-coder/FMX-cars-rental-Fullstack/assets/57364788/9babeeef-72b1-4308-9607-725c0652a62c)
 
 API Postman:
