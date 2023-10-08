@@ -4,7 +4,8 @@ H2 DB:
 username=sa
 password=""
 
-![image](https://github.com/Fury-is-Black-coder/FMX-cars-rental-Fullstack/assets/57364788/9babeeef-72b1-4308-9607-725c0652a62c)
+![image](https://github.com/Fury-is-Black-coder/FMX-cars-rental-Fullstack/assets/57364788/1c4c858c-bc11-495a-ab89-98210499d438)
+
 
 API Postman:
 -----------------------------------------------------------
@@ -89,7 +90,8 @@ Zabezpieczenia:
 -----------------------------------------------------------
 Mechanizmy zabezpieczeń, takie jak uwierzytelnianie i autoryzacja, w zależności od wymagań projektu.
 
-![image](https://github.com/Fury-is-Black-coder/FMX-cars-rental-Fullstack/assets/57364788/9babeeef-72b1-4308-9607-725c0652a62c)
+![image](https://github.com/Fury-is-Black-coder/FMX-cars-rental-Fullstack/assets/57364788/c9b3e178-1194-4b92-b7b8-2324ab626ba8)
+
 
 API Postman:
 -----------------------------------------------------------
