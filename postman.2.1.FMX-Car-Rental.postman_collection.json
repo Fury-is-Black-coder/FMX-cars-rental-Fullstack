@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "851d18ba-567c-49bd-b638-b1080eed769c",
+		"name": "FMX-Car-Rental",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29614417"
+	},
+	"item": [
+		{
+			"name": "getAllCars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/getAllCars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"getAllCars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAvailableCars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/getAvailableCars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"getAvailableCars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllReservation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/getActiveReservation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"getActiveReservation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getActiveReservation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/getActiveReservation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"getActiveReservation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reservationsByUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/reservationsByUser/{userId}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"reservationsByUser",
+						"{userId}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "activeReservationsByUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/activeReservationsByUser/{userId}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"activeReservationsByUser",
+						"{userId}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addNewCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"brand\": \"Chevrolet\",\r\n        \"model\": \"Impala\",\r\n        \"registrationNumber\": \"JKL101\",\r\n        \"reserved\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/addNewCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"addNewCar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reserveCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"carId\": \"2\",\r\n        \"userId\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/reserveCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"reserveCar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "releaseCar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"carId\": \"2\",\r\n        \"userId\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/releaseCar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"releaseCar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
