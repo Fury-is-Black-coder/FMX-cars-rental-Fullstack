@@ -10,8 +10,6 @@ password=""
 
 
 API Postman:
-[Uploading FMX-Car-Rental.postman_collection.json…]()
-
 -----------------------------------------------------------
 https://api.postman.com/collections/29614417-851d18ba-567c-49bd-b638-b1080eed769c?access_key=PMAT-01HC8SFY5AJSEG3TZW00EJQ3JZ
 
